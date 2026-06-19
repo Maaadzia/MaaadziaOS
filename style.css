@@ -1,0 +1,99 @@
+.everything {
+    background-color: #34515e; 
+    background-image: url(./background3.webp); 
+    background-size: cover; 
+    font-family: Gill Sans, 
+    sans-serif;
+}
+
+.nagłówek {
+    background-color: rgba(0, 0, 0, 0.236);
+    color:#ffffff;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.okno1 { 
+    border: solid; 
+    color:#ffffff; 
+    border-radius: 16px; 
+    padding: 16px; 
+    position: absolute; 
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.okno2 { 
+    border: solid;
+    color:#ffffff; 
+    border-radius: 16px; 
+    padding: 16px; 
+    position: absolute; 
+    top: 150%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.draggableWindow { 
+    border: solid;
+    color:#ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.everythingh1 {
+    padding: 4px;
+    margin: 4px;
+    background-color: #ffffff;
+    color: #34515e;
+    border-radius: 16px;
+}
+
+.everythingh2 {
+    color: #ffffff;
+}
+
+.everythinghandle {
+    background-color: rgba(0, 0, 0, 0.236);
+    color:#ffffff;
+    backdrop-filter:
+    blur(10px);
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 20px
+}
+
+.jupiterhandle {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    object-fit: cover
+}
+
+.everythingearth {
+    width: 1000px;
+    height: 500px;
+    border-radius: 16px;
+    object-fit: cover
+}
+
+.nagłówek1 {
+    margin-left: 16px;
+}
+
+.nagłówek2 {
+    cursor: pointer;
+    margin-right: 16px;
+    text-align: right
+}
+
+.nagłówek3 {
+    margin-right: 16px;
+    text-align: right;
+}
